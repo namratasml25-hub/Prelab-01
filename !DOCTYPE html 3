@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Basic HTML5 Webpage</title>
+</head>
+
+<body>
+
+<h1>Welcome to My Webpage</h1>
+
+<marquee>Learning HTML5 Elements for Web Design</marquee>
+
+<h2>Text Formatting</h2>
+<p>This is a <b>bold</b> text.</p>
+<p>This is an <i>italic</i> text.</p>
+<p>This is an <u>underlined</u> text.</p>
+<p>This is a <strong>strong</strong> text.</p>
+
+<h2>Unordered List</h2>
+<ul>
+<li>HTML</li>
+<li>CSS</li>
+<li>JavaScript</li>
+</ul>
+
+<h2>Ordered List</h2>
+<ol>
+<li>Open Browser</li>
+<li>Write HTML Code</li>
+<li>Save File</li>
+</ol>
+
+<h2>Description List</h2>
+<dl>
+<dt>HTML</dt>
+<dd>Hyper Text Markup Language</dd>
+
+<dt>CSS</dt>
+<dd>Cascading Style Sheets</dd>
+</dl>
+
+<h2>Hyperlinks</h2>
+
+<p>Internal Link:</p>
+<a href="#section1">Go to Image Section</a>
+
+<p>External Link:</p>
+<a href="https://www.google.com">Visit Google</a>
+
+<p>Email Link:</p>
+<a href="mailto:example@gmail.com">Send Email</a>
+
+<h2 id="section1">Image Section</h2>
+
+<img src="https://via.placeholder.com/200" alt="Sample Image">
+
+</body>
+</html>
