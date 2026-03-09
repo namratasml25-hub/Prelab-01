@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>HTML5 Semantic Elements</title>
+
+<style>
+body{
+    font-family: Arial;
+    margin:20px;
+}
+
+header{
+    background-color: lightblue;
+    padding:15px;
+    text-align:center;
+}
+
+section{
+    background-color: lightgray;
+    padding:15px;
+    margin-top:10px;
+}
+
+article{
+    background-color: white;
+    padding:15px;
+    margin-top:10px;
+    border:1px solid black;
+}
+
+footer{
+    background-color: lightblue;
+    text-align:center;
+    padding:10px;
+    margin-top:10px;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+<h1>HTML5 Semantic Elements</h1>
+<p>Study of HTML5 document structure</p>
+</header>
+
+<section>
+<h2>About HTML5</h2>
+<p>HTML5 is the latest version of HTML used to create modern web pages.</p>
+</section>
+
+<article>
+<h2>Use of Semantic Elements</h2>
+<p>Semantic elements clearly describe their meaning in a webpage.</p>
+<p>Examples are header, section, article and footer.</p>
+</article>
+
+<footer>
+<p>Created for HTML5 Practical</p>
+</footer>
+
+</body>
+</html>
