@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Scholarship / Seminar Registration Form</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            background-color: #f2f2f2;
+        }
+
+        .container {
+            width: 500px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px gray;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        fieldset {
+            margin-bottom: 15px;
+            border-radius: 8px;
+        }
+
+        legend {
+            font-weight: bold;
+        }
+
+        label {
+            display: block;
+            margin-top: 8px;
+        }
+
+        input, select, textarea {
+            width: 100%;
+            padding: 6px;
+            margin-top: 4px;
+        }
+
+        .inline {
+            width: auto;
+        }
+
+        .buttons {
+            text-align: center;
+        }
+
+        .buttons input {
+            width: 100px;
+            margin: 5px;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+    <h2>Registration Form</h2>
+
+    <form>
+
+        <!-- Personal Details -->
+        <fieldset>
+            <legend>Personal Details</legend>
+
+            <label>Full Name:</label>
+            <input type="text" name="name" required>
+
+            <label>Email:</label>
+            <input type="email" name="email" required>
+
+            <label>Phone Number:</label>
+            <input type="tel" name="phone" pattern="[0-9]{10}" placeholder="10-digit number" required>
+
+            <label>Gender:</label>
+            <input type="radio" name="gender" value="male" class="inline"> Male
+            <input type="radio" name="gender" value="female" class="inline"> Female
+            <input type="radio" name="gender" value="other" class="inline"> Other
+        </fieldset>
+
+        <!-- Academic Details -->
+        <fieldset>
+            <legend>Academic Details</legend>
+
+            <label>Course:</label>
+            <select name="course" required>
+                <option value="">--Select Course--</option>
+                <option>B-tech</option>
+                <option>BCA</option>
+                <option>B.Com</option>
+                <option>BA</option>
+            </select>
+
+            <label>Year:</label>
+            <select name="year" required>
+                <option value="">--Select Year--</option>
+                <option>1st Year</option>
+                <option>2nd Year</option>
+                <option>3rd Year</option>
+            </select>
+
+            <label>College Name:</label>
+            <input type="text" name="college">
+        </fieldset>
+
+        <!-- Program Details -->
+        <fieldset>
+            <legend>Seminar / Scholarship</legend>
+
+            <label>Apply For:</label>
+            <input type="radio" name="type" value="seminar" class="inline"> Seminar
+            <input type="radio" name="type" value="scholarship" class="inline"> Scholarship
+
+            <label>Areas of Interest:</label>
+            <input type="checkbox" class="inline"> Technology
+            <input type="checkbox" class="inline"> Business
+            <input type="checkbox" class="inline"> Science
+            <input type="checkbox" class="inline"> Arts
+
+            <label>Why are you applying?</label>
+            <textarea rows="3"></textarea>
+        </fieldset>
+
+        <!-- Buttons -->
+        <div class="buttons">
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </div>
+
+    </form>
+</div>
+
+</body>
+</html>
